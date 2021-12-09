@@ -49,7 +49,11 @@ function App() {
         </button>
       </div>
       {!show && <SelectNews />}
-      {!show && showAllHits()}
+      <div className="container">
+        <div className="row  row-cols-1 row-cols-md-2">
+          {!show && showAllHits()}
+        </div>
+      </div>
       {show && <Hitsfavorites />}
     </>
   );

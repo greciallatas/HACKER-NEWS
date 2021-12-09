@@ -70,14 +70,24 @@
 .col {
     margin-block: 30px;
 }
+
 .card {
     flex-direction: row;
     align-items: center;
     width: 550px;
+    cursor: pointer;
+}
+
+.card:hover {
+    opacity: 0.4;
 }
 
 .card-body {
     max-width: 482px;
+}
+
+.card-body a {
+    text-decoration: none;
 }
 
 .card-text {
