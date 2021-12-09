@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Roboto:wght@100;300;400;500&display=swap');
+
+:root {
+    --font-primary: 'Baskervville', serif;
+    --font-secondary: 'Roboto', sans-serif;
+    --color-primary: #6b6b6b;
+    --color-secondary: #1797ff;
+    --color-heart: #DD0031;
+}
+
+/* Navbar */
+.navbar {
+    height: 114px;
+    box-shadow: 0 1px 4px 0 rgba(0, 21, 41, 0.12);;
+}
+
+.navbar-brand {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 28px;
+}
+
+/* Buttons */
+.container-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.btn-hits-all {
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    color: var(--color-primary);
+    width: 98px;
+    padding: 3px;
+    border-radius: 2px;
+    border: solid 1px #d6d6d6;
+}
+
+.btn-hits-favorite {
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    color: var(--color-secondary);
+    width: 98px;
+    padding: 3px;
+    border-radius: 2px;
+    border: solid 1px var(--color-secondary);
+}
+
+/* Select */
+.form-select {
+    width: 240px;
+    margin: 63px 114px 1px 150px;
+}
+
+.fa-angular {
+    color: #DD0031;
+}
+
+/* Card Hits */
+.card {
+    flex-direction: row;
+    align-items: center;
+    width: 550px;
+}
+
+.card-body {
+    max-width: 482px;
+}
+
+.card-text {
+    font-family: var(--font-secondary);
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.card-title {
+    font-family: var(--font-secondary);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+.container-like {
+    width: 68px;
+    background: #F5F5F5;
+    border-radius: 0 6px 6px 0;
+    text-align: center;
+}
+
+.fa-heart {
+    font-size: 20px;
+    color: var(--color-heart);
+    margin-block: 2em;
+}

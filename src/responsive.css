@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    .card {
+        width: 400px;
+    }
+
+    .card-body {
+        max-width: 332px;
+    }
+
+    .container-like {
+        width: 68px;
+    }
+}
