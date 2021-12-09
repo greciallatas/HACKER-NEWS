@@ -48,7 +48,7 @@ function App() {
           My faves
         </button>
       </div>
-      <SelectNews />
+      {!show && <SelectNews />}
       {!show && showAllHits()}
       {show && <Hitsfavorites />}
     </>
